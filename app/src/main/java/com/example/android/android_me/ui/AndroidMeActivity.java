@@ -55,7 +55,7 @@ public class AndroidMeActivity extends AppCompatActivity {
 
         legsFragment.setImageResources(AndroidImageAssets.getLegs());
         legsFragment.setListItemIndex(1);
-        
+
         fragmentManager.beginTransaction()
                 .add(R.id.mid_container, midBodyFragment)
                 .add(R.id.legs_container, legsFragment)
